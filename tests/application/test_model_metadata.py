@@ -10,7 +10,7 @@ def test_provider_model_info_preserves_capabilities_when_identity_is_replaced() 
         supports_thinking=True,
         input_modalities=frozenset({ModelInputModality.TEXT, ModelInputModality.IMAGE}),
         context_window_tokens=131072,
-        max_output_tokens=8192,
+        max_output_tokens=819777777772626226262,
     )
 
     assert replace(info, model_id="provider/vendor/model") == ProviderModelInfo(
